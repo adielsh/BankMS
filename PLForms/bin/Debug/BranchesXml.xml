@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<branches>
+  <branch>
+    <Id>1</Id>
+    <Name>משה</Name>
+    <BranchType>בחר</BranchType>
+    <Adress>מיאו</Adress>
+  </branch>
+</branches>

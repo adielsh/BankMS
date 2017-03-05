@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Accounts>
+  <bussinesAccount>
+    <Id>1</Id>
+    <Name>123</Name>
+    <AccountStatus>בחירה</AccountStatus>
+    <IsPrivate>false</IsPrivate>
+    <OpenDate>2012-12-31T08:56:58.2900106+02:00</OpenDate>
+    <Password>123</Password>
+    <PhoneNumber>123</PhoneNumber>
+    <Balance>1123</Balance>
+    <Credit>123</Credit>
+    <BranchId>1</BranchId>
+    <Adress>123</Adress>
+    <Allowed>123</Allowed>
+  </bussinesAccount>
+  <privateAccount>
+    <Id>2</Id>
+    <Name>1</Name>
+    <AccountStatus>בחירה</AccountStatus>
+    <IsPrivate>true</IsPrivate>
+    <OpenDate>2012-12-31T09:08:52.8778827+02:00</OpenDate>
+    <Password>1</Password>
+    <PhoneNumber>1</PhoneNumber>
+    <Balance>1</Balance>
+    <Credit>1</Credit>
+    <BranchId>1</BranchId>
+    <CreditNumber>1</CreditNumber>
+    <Adress>1</Adress>
+  </privateAccount>
+</Accounts>

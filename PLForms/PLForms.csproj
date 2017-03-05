@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{68A4F3DB-4AC0-4601-9A32-F89326DE9744}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PLForms</RootNamespace>
+    <AssemblyName>PLForms</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountsForm.Designer.cs">
+      <DependentUpon>AccountsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountsQueryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountsQueryForm.Designer.cs">
+      <DependentUpon>AccountsQueryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAccountForm.Designer.cs">
+      <DependentUpon>AddAccountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddBranchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBranchForm.Designer.cs">
+      <DependentUpon>AddBranchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTransactionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTransactionForm.Designer.cs">
+      <DependentUpon>AddTransactionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BranchesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BranchesForm.Designer.cs">
+      <DependentUpon>BranchesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BranchesQueryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BranchesQueryForm.Designer.cs">
+      <DependentUpon>BranchesQueryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueriesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueriesForm.Designer.cs">
+      <DependentUpon>QueriesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveAccountForm.Designer.cs">
+      <DependentUpon>RemoveAccountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveBranchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveBranchForm.Designer.cs">
+      <DependentUpon>RemoveBranchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveTransactionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveTransactionForm.Designer.cs">
+      <DependentUpon>RemoveTransactionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TranscationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TranscationForm.Designer.cs">
+      <DependentUpon>TranscationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransQueryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransQueryForm.Designer.cs">
+      <DependentUpon>TransQueryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateTransForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateTransForm.Designer.cs">
+      <DependentUpon>UpdateTransForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateAccountForm.Designer.cs">
+      <DependentUpon>UpdateAccountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateBranchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateBranchForm.Designer.cs">
+      <DependentUpon>UpdateBranchForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AccountsForm.resx">
+      <DependentUpon>AccountsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountsQueryForm.resx">
+      <DependentUpon>AccountsQueryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddAccountForm.resx">
+      <DependentUpon>AddAccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddBranchForm.resx">
+      <DependentUpon>AddBranchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTransactionForm.resx">
+      <DependentUpon>AddTransactionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BranchesForm.resx">
+      <DependentUpon>BranchesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BranchesQueryForm.resx">
+      <DependentUpon>BranchesQueryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QueriesForm.resx">
+      <DependentUpon>QueriesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveAccountForm.resx">
+      <DependentUpon>RemoveAccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveBranchForm.he-IL.resx">
+      <DependentUpon>RemoveBranchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveBranchForm.resx">
+      <DependentUpon>RemoveBranchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveTransactionForm.resx">
+      <DependentUpon>RemoveTransactionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TranscationForm.resx">
+      <DependentUpon>TranscationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransQueryForm.resx">
+      <DependentUpon>TransQueryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateTransForm.resx">
+      <DependentUpon>UpdateTransForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateAccountForm.resx">
+      <DependentUpon>UpdateAccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateBranchForm.resx">
+      <DependentUpon>UpdateBranchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\BE.Account.datasource" />
+    <None Include="Properties\DataSources\BE.Branch.datasource" />
+    <None Include="Properties\DataSources\BE.BussinesAccount.datasource" />
+    <None Include="Properties\DataSources\BE.PrivateAccount.datasource" />
+    <None Include="Properties\DataSources\BE.Transaction.datasource" />
+    <None Include="Properties\DataSources\DAL.DAL_imp.datasource" />
+    <None Include="Properties\DataSources\DAL.DataSource.datasource" />
+    <None Include="Properties\DataSources\DAL.FactoryDal.datasource" />
+    <None Include="Properties\DataSources\DAL.IDAL.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BE\BE.csproj">
+      <Project>{59C1186B-B1E7-4766-807F-8409BF455F84}</Project>
+      <Name>BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BL\BL.csproj">
+      <Project>{01E47C1D-09D1-4071-9CAE-7E5651E93604}</Project>
+      <Name>BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{2D994AEB-F84C-4B5F-9F46-FF08A1FE1334}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\BankLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3742462452.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

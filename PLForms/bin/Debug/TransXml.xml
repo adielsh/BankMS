@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<transactions>
+  <transactions>
+    <FromAccountId>1</FromAccountId>
+    <Id>1</Id>
+    <IsUpdated>true</IsUpdated>
+    <Sum>1000</Sum>
+    <Time>2012-12-31T00:00:00+02:00</Time>
+    <ToAccountId>1</ToAccountId>
+    <TransType>הפקדת_מזומן</TransType>
+    <UpdateTime>2012-12-31T08:58:55.4247103+02:00</UpdateTime>
+  </transactions>
+</transactions>

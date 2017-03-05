@@ -1,0 +1,7 @@
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\DAL\bin\Debug\DAL.dll
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\DAL\bin\Debug\DAL.pdb
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\DAL\bin\Debug\BE.dll
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\DAL\bin\Debug\BE.pdb
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\DAL\obj\Debug\DAL.dll
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\DAL\obj\Debug\DAL.pdb

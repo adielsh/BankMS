@@ -1,0 +1,11 @@
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\PI\obj\x86\Debug\PI.csprojResolveAssemblyReference.cache
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\PI\bin\Debug\PI.exe
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\PI\bin\Debug\PI.pdb
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\PI\bin\Debug\BE.dll
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\PI\bin\Debug\BL.dll
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\PI\bin\Debug\DAL.dll
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\PI\bin\Debug\BE.pdb
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\PI\bin\Debug\BL.pdb
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\PI\bin\Debug\DAL.pdb
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\PI\obj\x86\Debug\PI.exe
+C:\Users\Adiel\Documents\Visual Studio 2010\Projects\dotNet5773_Project01_9790_2002\PI\obj\x86\Debug\PI.pdb
